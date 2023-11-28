@@ -1,12 +1,12 @@
 {
-    "server": "192.168.0.2",
+    "server": "192.168.8.100",
     "port": "1883",
     "topic": "homeassistant",
     "devicename": "mpp",
-    "manufacturer": "MPPSolar",
-    "model": "PIP3024MSXE",
-    "serial": "92331908103079",
-    "ver": "20.13",
+    "manufacturer": "Mecer",
+    "model": "SOL-I-AX-8M",
+    "serial": "92932101105275",
+    "ver": "46.04",
     "username": "mqtt",
     "password": "broker",
     "influx": {
