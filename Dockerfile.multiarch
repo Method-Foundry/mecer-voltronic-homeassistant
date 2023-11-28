@@ -1,7 +1,7 @@
 # Uncomment if building locally...
-# FROM debian:stretch
+# FROM debian:bullseye
 
-FROM --platform=${TARGETPLATFORM:-linux/amd64} debian:stretch
+FROM --platform=${TARGETPLATFORM:-linux/amd64} debian:bullseye
 
 ARG BUILD_DATE
 ARG VERSION
