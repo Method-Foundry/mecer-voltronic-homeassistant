@@ -8,7 +8,7 @@
     "serial": "92932101105275",
     "ver": "46.04",
     "username": "mqtt",
-    "password": "broker",
+    "password": "r",
     "influx": {
         "enabled": "false",
         "host": "http://[INFLUX_IP_OR_URL]:8086", 
