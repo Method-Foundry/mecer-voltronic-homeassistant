@@ -50,7 +50,7 @@ jobs:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
-          echo "${DOCKER_PASSWORD}" | docker login --username "${DOCKER_USERNAME}" --password-stdin
+          echo "${DOCKER_TOKEN}" | docker login --username "${DOCKER_USERNAME}"
       -
         name: Run Buildx (Push to Docker Hub)
         run: |
