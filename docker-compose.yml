@@ -4,7 +4,7 @@ services:
   voltronic-mqtt:
 
     # We're now (finally) supporting Multi-Arch builds (via Github actions) on Docker Hub!
-    image: ironmikej/mecer_inverter_homeassistant
+    image: ironmikej79/mecer-mqtt
 
     # Uncomment if you want to build your own local version.
     build:
